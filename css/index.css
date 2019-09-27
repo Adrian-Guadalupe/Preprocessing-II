@@ -188,7 +188,7 @@ img {
 }
 .nav-container .nav-bar nav a {
   font-size: 1.6rem;
-  color: black;
+  color: #212529;
   text-decoration: none;
 }
 .nav-container .nav-bar nav a:hover {
@@ -257,4 +257,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick button {
+  width: 86%;
+  font-size: 1.75rem;
+  background-color: #17A2B8;
+  padding: 10px;
+  border-radius: 1.8rem;
+}
+.home .content-pick button:hover {
+  background-color: #7adeee;
+  cursor: pointer;
 }
