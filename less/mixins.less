@@ -1,10 +1,10 @@
 // Mixins in here
 
-.btnStyle(@fntSize, @curve, @btnWide) {
+.btnStyle(@fntSize, @curve, @btnWide, @btnPad) {
    width: @btnWide;
    font-size: @fntSize;
    background-color: @button-bg;
-   padding: 10px;
+   padding: @btnPad;
    border-radius: @curve;
    &:hover{
      background-color: lighten(@button-bg, 30%);
