@@ -1,1 +1,14 @@
 // Mixins in here
+
+.btnStyle(@fntSize, @curve, @btnWide, @btnPad) {
+   width: @btnWide;
+   font-size: @fntSize;
+   color: white;
+   background-color: @button-bg;
+   padding: @btnPad;
+   border-radius: @curve;
+   &:hover{
+     background-color: lighten(@button-bg, 30%);
+     cursor: pointer;
+   }
+ }
